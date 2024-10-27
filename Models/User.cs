@@ -8,14 +8,14 @@ namespace Netapp.Models
 
         [Required]
         [StringLength(100)]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [Required]
         [EmailAddress]
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
         [Required]
         [Phone]
-        public string Contact { get; set; }
+        public string? Contact { get; set; }
     }
 }

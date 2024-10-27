@@ -22,7 +22,7 @@ public class RegisterModel : PageModel
             return Page();
         }
 
-        var connectionString = "Server=localhost;Database=registration;User Id=root;Password=your_password;";
+        var connectionString = "Server=localhost;Database=registration;User=root;Password=Ssk@2000";
         using (var connection = new MySqlConnection(connectionString))
         {
             connection.Open();
